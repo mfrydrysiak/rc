@@ -1,0 +1,9 @@
+colorscheme gruvbox
+
+" resizing window by Ctrl+arrows
+:nnoremap <silent><C-Right> :wincmd ><cr>
+:nnoremap <silent><C-Left>  :wincmd <<cr>
+:nnoremap <silent><C-Up> :wincmd +<cr>
+:nnoremap <silent><C-Down> :wincmd -<cr>
+
+let g:NERDTreeWinSize = 30

@@ -26,6 +26,12 @@ nnoremap <silent> <F3> :NERDTreeToggle<CR>
 
 call plug#end()
 
+""""""""""""""""""""""""""""""""""""
+" Editor control
+""""""""""""""""""""""""""""""""""""
+
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
 
 """"""""""""""""""""""""""""""""""""
 " Window control

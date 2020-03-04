@@ -21,6 +21,7 @@ set hidden
 call plug#begin(expand('~/.vim/plugged'))
 
 Plug 'scrooloose/nerdtree'
+Plug 'tomasr/molokai'
 
 nnoremap <silent> <F3> :NERDTreeToggle<CR>
 
@@ -42,3 +43,9 @@ vnoremap K :m '<-2<CR>gv=gv
 :nnoremap <silent><C-Left>  :wincmd <<cr>
 :nnoremap <silent><C-Up> :wincmd +<cr>
 :nnoremap <silent><C-Down> :wincmd -<cr>
+
+""""""""""""""""""""""""""""""""""""
+" Visual settings
+""""""""""""""""""""""""""""""""""""
+
+colorscheme molokai

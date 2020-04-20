@@ -30,6 +30,12 @@ nnoremap <silent> <F3> :NERDTreeToggle<CR>
 call plug#end()
 
 """"""""""""""""""""""""""""""""""""
+" Indentation
+""""""""""""""""""""""""""""""""""""
+set autoindent
+set expandtab
+
+""""""""""""""""""""""""""""""""""""
 " Editor control
 """"""""""""""""""""""""""""""""""""
 
